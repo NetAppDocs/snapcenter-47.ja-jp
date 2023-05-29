@@ -25,9 +25,6 @@ http://support.microsoft.com/kb/2926557/["Microsoft のサポート記事 292655
 
 * Windows ホストにプラグインをインストールする場合、ビルトインでないクレデンシャルを指定する場合、またはユーザがローカルワークグループユーザに属している場合は、ホストで UAC を無効にする必要があります。
 * SnapManager for Microsoft SQL Server がインストールされている場合は、サービスとスケジュールを停止または無効にしておく必要があります。
-+
-バックアップジョブまたはクローンジョブを SnapCenter にインポートする予定の場合は、 SnapManager for Microsoft SQL Server をアンインストールしないでください。
-
 * ホストがサーバから完全修飾ドメイン名（ FQDN ）に解決できる必要があります。
 +
 hosts ファイルが解決可能になるように変更され、短縮名と FQDN の両方が hosts ファイルに指定されている場合は、 SnapCenter hosts ファイルに <IP_address> <host_fqdn><host_name> の形式でエントリを作成します

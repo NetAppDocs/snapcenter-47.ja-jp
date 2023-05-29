@@ -196,8 +196,6 @@ ONTAP クラスタまたは SVM の通信ポート
 
 SQL Server に対して sysadmin 権限を持つユーザが必要です。このプラグインは Microsoft VDI Framework を使用しますが、これには sysadmin アクセスが必要です。
 
-SnapManager for Microsoft SQL Server を使用していて、 SnapManager for Microsoft SQL Server から SnapCenter にデータをインポートする場合は、を参照してください link:../protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html["アーカイブバックアップをインポートする"^]
-
 
 
 == SnapCenter サーバをインストールします
