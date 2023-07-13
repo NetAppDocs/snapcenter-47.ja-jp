@@ -102,4 +102,13 @@ NOTE: DRバックアップを格納するターゲットパスを指定する必
 投稿（ Post ）
 
 |===
+
+NOTE: リポジトリのバックアップスケジュールは、SnapCenter Plug-in for WindowsをインストールしてサーバマシンにネットアップLUNを接続した場合にのみリストアされます。
+
+
+NOTE: DLLが破損している場合は、SnapCenterサーバを修復したり、問題のあるインストールを修正したりできます。
+
+
+NOTE: NSMファイルまたは構成ファイルが破損している場合は、同じバージョンのSnapCenterサーバをアンインストールして再インストールできます。
+
 詳細については、を参照してください https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["ディザスタリカバリ API"^] ビデオ：

@@ -3844,12 +3844,7 @@
   <block id="5cfa1ed5b7279fa5a9a9f892a69f175f" category="list-text">SnapCenter Plug-in for Oracle Database を代替ホストにインストールする必要があります。</block>
   <block id="b1815397269c524f0557a5562899d82b" category="list-text">クローンホストは、プライマリストレージまたはセカンダリストレージから LUN を検出できる必要があります。</block>
   <block id="2d4350dba1907fc52580a8f201e6340e" category="list-text">プライマリストレージまたはセカンダリ（バックアップまたはミラー）ストレージから代替ホストにクローニングする場合は、セカンダリストレージと代替ホストの間に iSCSI セッションが確立されているか、 FC 用に適切にゾーニングされていることを確認してください。</block>
-  <block id="3e30bf9ff6c5058456cc15f4812939ca" category="inline-link">Linux Host Utilities Installation and Setup Guide</block>
-  <block id="a13c407c281871b27c7c646287cfb88e" category="list-text"><block ref="a13c407c281871b27c7c646287cfb88e" category="inline-link-rx"></block></block>
-  <block id="99d5e9e8be050afa5c8c0151d7a00740" category="inline-link">AIX Host Utilities Installation and Setup Guide</block>
-  <block id="cc1ac40238dd772ed5975e72e877a936" category="list-text"><block ref="cc1ac40238dd772ed5975e72e877a936" category="inline-link-rx"></block></block>
   <block id="7ab56a931702e0e68323bba5f9744b17" category="list-text">バックアップ・ストレージまたはミラー・ストレージから同じホストにクローニングする場合は、バックアップまたはミラー・ストレージとホストの間に iSCSI セッションが確立されているか、 FC 用に適切にゾーニングされているかを確認してください。</block>
-  <block id="0bfae4ea7762d7ebae116652014f4cd5" category="list-text">仮想環境でクローニングを行う場合は、プライマリストレージまたはセカンダリストレージと、代替ホストをホストする ESX サーバの間で iSCSI セッションが確立されていること、または FC 用に適切にゾーニングされていることを確認してください。</block>
   <block id="b6002df6af7fac27dc362f546398ad42" category="list-text">ソースデータベースが ASM データベースの場合は、次の手順を実行します。</block>
   <block id="201c11864b685f8dcf2d90b5b22cd818" category="list-text">クローンを実行するホスト上で、 ASM インスタンスが稼働している必要があります。</block>
   <block id="9154cf1449b0c872a99006c07487631d" category="list-text">クローニングされたデータベースのアーカイブログファイルを専用の ASM ディスクグループに配置する場合は、クローン処理の前に ASM ディスクグループをプロビジョニングする必要があります。</block>
@@ -4158,7 +4153,6 @@
   <block id="c41e777bd921bd5fc9079273c0ed35db" category="doc">SnapCenter Plug-in for Microsoft Exchange Server の概要</block>
   <block id="e126a0dff251b10008436e2bf2a5dd06" category="paragraph">SnapCenter Plug-in for Microsoft Exchange Server は、 Exchange データベースに対応したデータ保護管理を提供する、 NetApp SnapCenter ソフトウェアのホスト側コンポーネントです。Plug-in for Exchange を使用すると、 SnapCenter 環境での Exchange データベースのバックアップとリストアが自動的に実行されます。</block>
   <block id="94bf62b5661b3bf71e7b277fd3572bb1" category="paragraph">Plug-in for Exchange をインストールすると、 SnapCenter で NetApp SnapMirror テクノロジを使用して別のボリュームにバックアップセットのミラーコピーを作成できるほか、 NetApp SnapVault テクノロジを使用して標準への準拠やアーカイブを目的としたディスクツーディスクのバックアップレプリケーションを実行できます。</block>
-  <block id="7af37c4476756504b6f4b3b595f4e558" category="paragraph">Exchange データベース全体ではなくメールやメールボックスのリストアとリカバリを行う場合は、 Single Mailbox Recovery （ SMBR ）ソフトウェアを使用します。</block>
   <block id="442b64d998d026e5e41a7f2456755c85" category="summary">SnapCenterAdd Host ページを使用して、 Windows ホストを追加できます。指定したホストに Plug-in for Exchange が自動的にインストールされます。これはプラグインのインストールに推奨される方法です。ホストを追加してプラグインをインストールするには、個々のホストまたはクラスタを使用します。</block>
   <block id="43e4843cc378c4665771060dbab161eb" category="doc">ホストを追加し、 Plug-in for Exchange をインストールします</block>
   <block id="9e2a1394549af2f704da56dffdafcdf3" category="paragraph">SnapCenter のホストの追加ページを使用して、 Windows ホストを追加できます。指定したホストに Plug-in for Exchange が自動的にインストールされます。これはプラグインのインストールに推奨される方法です。ホストを追加してプラグインをインストールするには、個々のホストまたはクラスタを使用します。</block>
@@ -4353,10 +4347,6 @@
   <block id="2807319f8bd59affef72f0158525b495" category="doc">メールとメールボックスのきめ細かいリカバリ</block>
   <block id="504c76abf7209921081fe0b281166c22" category="inline-link">『 SMBR アドミニストレーションガイド』</block>
   <block id="21816c8bcee290d4ecb4e3f7274ead69" category="paragraph">1 つのメールをリカバリするためだけにデータベース全体をリストアすると、時間とリソースが大量に消費されます。SMBR を使用すると、 Snapshot のクローンコピーを作成し、 Microsoft API を使用して SMBR 内のメールボックスをマウントすることで、メールを迅速にリカバリできます。SMBR の使用方法については、を参照してください<block ref="ec4bbb4517dd2ded0cc504f8d58977d4" category="inline-link-rx"></block>。</block>
-  <block id="7028749c09c12f8bb923863ce2b0cebe" category="inline-link-macro">SMBR ライセンス</block>
-  <block id="e2452ab679d04cfb5a81dfcf28af1c7d" category="list-text"><block ref="e2452ab679d04cfb5a81dfcf28af1c7d" category="inline-link-macro-rx"></block></block>
-  <block id="439c7150753e853ca177cd0e1ef12492" category="inline-link">SMBR のドキュメントライブラリです</block>
-  <block id="a586bd7e9166c5253992bcdf4d8b115e" category="list-text"><block ref="a586bd7e9166c5253992bcdf4d8b115e" category="inline-link-rx"></block></block>
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">SnapCenter を使用して SMBR のセカンダリストレージからリストアする方法</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">SMBR を使用した SnapVault からの Microsoft Exchange メールのリカバリ</block>
@@ -5124,7 +5114,6 @@
   <block id="68c649f38a72af40607349aa57e26c9f" category="paragraph">non_root_user は、作成した root 以外のユーザの名前です。</block>
   <block id="83aeb7b594481ad598eb0b519836777b" category="summary">SnapCenter は、物理マシンと仮想マシンの両方でさまざまなストレージタイプをサポートしています。SnapCenter カスタムプラグインをインストールする前に、ストレージタイプがサポートされているかどうかを確認する必要があります。</block>
   <block id="c48a2f5430d3aff55420b834363bcc46" category="doc">SnapCenter Custom Plug-ins でサポートされるストレージタイプ</block>
-  <block id="6da41a50505a00272cd3a44cfd33c736" category="paragraph">物理サーバと仮想サーバ（ VMDK と RDM LUN はサポートされません）</block>
   <block id="b880dba5b80385d6a4d3f5ff54d8ef78" category="summary">ホストを追加するには、 SnapCenterAdd Host ページを使用して、プラグインパッケージをインストールする必要があります。プラグインは、自動的にリモートホストにインストールされます。ホストの追加とプラグインパッケージのインストールは、個々のホストまたはクラスタに対して実行できます。</block>
   <block id="49e317595cf8eea53ae1d965b4173dbc" category="list-text">SnapCenter Adminロールなど、プラグインのインストールとアンインストールの権限のあるロールが割り当てられているユーザが必要です。</block>
   <block id="d1556c9da336be030540adcf58889977" category="inline-link-macro">カスタムアプリケーション用に、 Windows Server 2012 以降のグループマネージドサービスアカウントを設定します</block>
@@ -6679,9 +6668,6 @@
   <block id="b6b7e7973fe70256b1b775baf8ac7261" category="paragraph">1 つ以上の SnapCenter ライセンスをインストールする必要があります。ライセンスの追加方法については、を参照してください <block ref="978050eb868e07441781781da059ebc5" category="inline-link-macro-rx"></block> または <block ref="47cf8583fc17afccfc8268b2830ab680" category="inline-link-macro-rx"></block>。</block>
   <block id="59746a4c33021bdc9cb716ea91eadbb0" category="section-title">Single Mailbox Recovery （ SMBR ）ライセンス</block>
   <block id="8119a3fca1d141f0d7a8e7156604c296" category="paragraph">SnapCenter Plug-in for Exchange を使用して Microsoft Exchange Server データベースと Single Mailbox Recovery （ SMBR ）を管理している場合は、 SMBR のライセンスが追加で必要です。 SMBR の場合は、ユーザのメールボックスに基づいて別途購入する必要があります。</block>
-  <block id="0d5e6d352f8f3217e51e0df5fe981349" category="inline-link">SMBR リリースノート</block>
-  <block id="3305eb9373205972a06c6092007cad70" category="paragraph">メールボックスが 1 、 000 、 5000 、 15000 、 25000 個という単位で提供されている SMBR ライセンスを購入する場合は、ネットアップの営業担当者にお問い合わせください。SKU の購入後、の手順に従ってライセンスを取得できます<block ref="26f9ebf6b2beedaef61522277c7c5b3d" category="inline-link-rx"></block>。</block>
-  <block id="e641334b8b39e850790bd4b25b2e3cec" category="paragraph">ライセンスキーのリクエストを送信すると、 Kroll Ontrack は問題 50 メールボックスライセンスキーを送信します。資格に基づいて、 Kroll Ontrack は検証後にメールボックスのライセンスをアップグレードします。</block>
   <block id="e4dbf1e5d099c4253a603227e4b3bc08" category="summary">データ保護処理とプロビジョニング処理を実行するには、 ONTAP ストレージへの SnapCenter アクセスを付与するストレージシステムをセットアップする必要があります。スタンドアロンの SVM を追加するか、複数の SVM で構成されるクラスタを追加することができます。</block>
   <block id="787d250b4622b9b1f34f52b01f5768aa" category="doc">ストレージシステムを追加</block>
   <block id="032615c5bcc68f759618748b90e724e4" category="paragraph">データ保護処理とプロビジョニング処理を実行するためには、 ONTAP ストレージまたは NetApp ONTAP 用の Amazon FSX に SnapCenter アクセスを付与するストレージシステムをセットアップする必要があります。</block>
@@ -7829,7 +7815,6 @@
   <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">以前のバージョンの SnapCenter のドキュメント</block>
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">ネットアップのナレッジベース - SnapCenter</block>
   <block id="d7b3c4517cc189c6cdd986195fa3f33f" category="sidebar">SnapCenter ソフトウェア4.7のドキュメント</block>
-  <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">SnapCenter ソフトウェア</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter の RBAC</block>
   <block id="b3121ceac9c3b1c097a1f53db3eff2a7" category="sidebar">SnapCenter サーバとプラグインを管理します</block>
@@ -7910,6 +7895,32 @@
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">iSCSIプロトコルとFCプロトコルが混在するigroupを使用して、LUNがAIXホストにマッピングされていないことを確認してください。詳細については、を参照してください<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
   <block id="9756c6d75626032c8da05d425c1d0ca9" category="inline-link">インターネットに接続されていないレガシーシステムでは、SnapCenter のアップグレードまたはインストールが失敗します</block>
   <block id="13049774dda261f80daaffb596a81a1a" category="paragraph">.NETのトラブルシューティング情報については、を参照してください<block ref="942b108700d0bb5d970d88a8461fd602" category="inline-link-rx"></block>。</block>
-  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link-macro">複数のタブにSnapCenterログインすると、MFAエラーが表示される</block>
-  <block id="2f173d5b0ca9ce83c5f72823b496861e" category="paragraph">トラブルシューティングについては、を参照してください <block ref="483bd3f656143b22c94a19a83a51ec44" category="inline-link-macro-rx"></block>。</block>
+  <block id="d21fbb2a5ce79a2a4ef0780b73023b2e" category="paragraph">VMホストへの物理およびNFSの直接マウント（VMDKおよびRDM LUNはサポートされません）。</block>
+  <block id="f2688d5a483bee7fcbd80a4e666fc088" category="inline-link">Host Utilitiesのマニュアル</block>
+  <block id="cb6e98b3e61b9a1d942fec6f408e43bb" category="list-text">仮想環境でクローニングを行う場合は、プライマリストレージまたはセカンダリストレージと、代替ホストをホストする ESX サーバの間で iSCSI セッションが確立されていること、または FC 用に適切にゾーニングされていることを確認してください。
+ [+]
+詳細については、を参照してください<block ref="ab48d7186c8a78dfaf0e19af923f0daf" category="inline-link-rx"></block>。</block>
+  <block id="4507e0d1a42287b926181e4cb9fda1cf" category="summary">このリリースの SnapCenter サーバおよび SnapCenter プラグインパッケージに関する重要な情報を提供します。これには、解決済みの問題、既知の問題、注意事項、および制限事項が含まれます。</block>
+  <block id="ced7a5b3383b556d1b18d34c718324e0" category="inline-link">SnapCenter ソフトウェア4.7リリースノート</block>
+  <block id="999d9efd57a168cef0440d07870393a9" category="paragraph">詳細については、を参照してください<block ref="237f55bc8fab90384c3ca78c8a284ce0" category="inline-link-rx"></block>。</block>
+  <block id="2dce035ff36be1c01663c842167acf77" category="admonition">リポジトリのバックアップスケジュールは、SnapCenter Plug-in for WindowsをインストールしてサーバマシンにネットアップLUNを接続した場合にのみリストアされます。</block>
+  <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">DLLが破損している場合は、SnapCenterサーバを修復したり、問題のあるインストールを修正したりできます。</block>
+  <block id="936de455e68556a0f0c7a945031aded0" category="admonition">NSMファイルまたは構成ファイルが破損している場合は、同じバージョンのSnapCenterサーバをアンインストールして再インストールできます。</block>
+  <block id="c90d9871b4b86a10a62cd2bf2c1ea688" category="inline-link">インストールウィザードを使用してSnapCenterサーバをインストールします。</block>
+  <block id="1d72d65109e6906ab81717720199491b" category="paragraph">ポートをカスタマイズするには、を参照してください<block ref="724cb62a2271057d0541cdb8153d9260" category="inline-link-rx"></block></block>
+  <block id="60f072866c2d325a151d990670aa5b4c" category="inline-link">ホストを追加してLinuxまたはAIX用のSnapCenter Plug-insパッケージをインストールします。</block>
+  <block id="ac01fd33e160c622162b42b1f7e4fe18" category="paragraph">ポートをカスタマイズするには、を参照してください<block ref="32882cfc4755cb17eefc59506f087a6f" category="inline-link-rx"></block> または<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="97e62e758724ab080cbfe2799c388822" category="paragraph">ポートをカスタマイズするには、を参照してください<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="fa9e479c30699c2d65f7d1107b28b62a" category="paragraph">ポートをカスタマイズするには、を参照してください<block ref="6bb20f223531bd59e001c776ffe35812" category="inline-link-rx"></block></block>
+  <block id="8db273592868b7d940261fe8347b32b4" category="inline-link-macro">CPC-00507</block>
+  <block id="802a2285a60e079b52f32ba2c3140d0d" category="paragraph">NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）になりました。詳細については、を参照してください <block ref="5a98ce97c5b40ecef6f220dc57d4f14a" category="inline-link-macro-rx"></block>。NetAppは、2020年6月24日に導入されたマーケティング用パーツ番号を通じて、メールボックスの容量、メンテナンス、サポートを購入したお客様をサポート対象期間中も引き続きサポートします。</block>
+  <block id="03da3b5726a1efd6df1fc511966c89a6" category="paragraph">NetApp Single Mailbox Recoveryは、Ontrackが提供するパートナー製品です。Ontrack PowerControlsには、NetApp Single Mailbox Recoveryと同様の機能が用意されています。お客様は、新しいOntrack PowerControlsソフトウェアライセンスとOntrack PowerControlsメンテナンスおよびサポートの更新をOntrackから（licensingteam@ontrack.com経由で）調達し、2023年5月12日のEOA日以降にメールボックスをきめ細かくリカバリできます。</block>
+  <block id="b73f485c1067e4b3168b292142131855" category="inline-link">複数のタブで同時にログインを試行すると、MFAエラーが表示されます</block>
+  <block id="9e4f9470d66f1730ad7525f9043126be" category="paragraph">トラブルシューティング情報については、を参照してください<block ref="361c774ee5cb22be42ef8ea152ed45ad" category="inline-link-rx"></block>。</block>
+  <block id="245360450ea9845b00af24cc4009b53f" category="paragraph">Exchange データベース全体ではなくメールやメールボックスのリストアとリカバリを行う場合は、 Single Mailbox Recovery （ SMBR ）ソフトウェアを使用します。
+NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）になりました。NetAppは、2020年6月24日に導入されたマーケティング用パーツ番号を通じて、メールボックスの容量、メンテナンス、サポートを購入したお客様をサポート対象期間中も引き続きサポートします。</block>
+  <block id="01a1924558b81160b570c09fe8a4203c" category="paragraph">NetApp Single Mailbox Recoveryは、Ontrackが提供するパートナー製品です。Ontrack PowerControlsには、NetApp Single Mailbox Recoveryと同様の機能が用意されています。お客様は、新しいOntrack PowerControlsソフトウェアライセンスとOntrack PowerControlsメンテナンスおよびサポート更新をOntrackから（licensingteam@ontrack.com経由で）購入して、メールボックスをきめ細かくリカバリできます。</block>
+  <block id="07c049db30ed73f0d52cca0a50220fcd" category="paragraph">SMBRの追加情報については、次の資料を参照してください。</block>
+  <block id="81845e1ca99f532dc90bd83c62202fc0" category="inline-link">SMBRを使用して単一アイテムを手動でリストアする方法（Ontrack電源制御リストアにも適用可能）</block>
+  <block id="db0c2525f5f13ece537a8604a4046d7c" category="list-text"><block ref="db0c2525f5f13ece537a8604a4046d7c" category="inline-link-rx"></block></block>
 </blocks>
