@@ -84,7 +84,7 @@ SnapCenter の容量ベースのライセンスのシリアル番号は、注文
 . [ システム ] 、 [ * ソフトウェアライセンス ] の順に移動します。
 . [ 選択基準 ] 領域で、 [ すべてを表示：シリアル番号とライセンス ] ドロップダウンメニューから *SC_standard* を選択します。
 +
-image::../media/nss_license_selection.gif[NSS ライセンス選択]
+image::../media/nss_license_selection.gif[ライセンス]
 
 . 会社名を入力して、「 * Go!* 」をクリックします。
 +
@@ -150,7 +150,7 @@ NOTE: トライアルライセンス（ 50 で終わるシリアル番号）は�
 
 . 左側のナビゲーションペインで、 * 設定 * をクリックします。
 . [ 設定 ] ページで、 [* ソフトウェア ] をクリックします。
-. [ ソフトウェア ] ページの [ ライセンス ] セクションで、 [* 追加 ] をクリックしますimage:../media/add_policy_from_resourcegroup.gif[""]）。
+. [Software]ページの[License]セクションで、*[Add]*（）をクリックしますimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]。
 . SnapCenter ライセンスの追加ウィザードで、次のいずれかの方法を選択して、追加するライセンスを取得します。
 +
 |===

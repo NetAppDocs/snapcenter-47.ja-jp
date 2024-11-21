@@ -10,6 +10,7 @@ summary: PowerShell コマンドレットを使用して、 SQL Server データ
 :imagesdir: ../media/
 
 
+[role="lead"]
 PowerShell コマンドレットを使用して、 SQL Server データベースや Windows ファイルシステムをバックアップできます。たとえば、 SQL Server データベースまたは Windows ファイルシステムのバックアップでは、 SnapCenter サーバとの接続の確立、 SQL Server データベースインスタンスまたは Windows ファイルシステムの検出、ポリシーの追加、バックアップリソースグループの作成、バックアップ、およびバックアップの検証が行われます。
 
 * 必要なもの *
@@ -110,4 +111,4 @@ PS C:\> Get-SmJobSummaryReport -Date '1/27/2016'
 ----
 
 
-コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。

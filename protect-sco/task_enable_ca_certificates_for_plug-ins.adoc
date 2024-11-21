@@ -19,7 +19,7 @@ CA 証明書を設定し、 SnapCenter サーバと対応するプラグイン�
 * このプラグインの証明書ステータスは、 _Get-SmCertificateSettings_ を使用して表示できます。
 
 
-コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 * 手順 *
 
@@ -34,10 +34,10 @@ CA 証明書を設定し、 SnapCenter サーバと対応するプラグイン�
 
 管理対象ホストタブのホストには鍵が表示され、 SnapCenter サーバとプラグインホストの間の接続のステータスが南京錠の色で示されます。
 
-* *image:../media/enable_ca_issues_icon.png[""]* は、 CA 証明書が有効になっておらず、プラグインホストにも割り当てられていないことを示します。
-* *image:../media/enable_ca_good_icon.png[""]* CA 証明書が正常に検証されたことを示します。
-* *image:../media/enable_ca_failed_icon.png[""]* は、 CA 証明書を検証できなかったことを示します。
-* *image:../media/enable_ca_undefined_icon.png[""]* 接続情報を取得できなかったことを示します。
+* *image:../media/enable_ca_issues_icon.png["問題アイコン"]*は、CA証明書が有効になっておらず、プラグインホストにも割り当てられていないことを示します。
+* **image:../media/enable_ca_good_icon.png["CA Goodアイコン"]は、CA証明書が正常に検証されたことを示します。
+* **image:../media/enable_ca_failed_icon.png["CA失敗アイコン"]は、CA証明書を検証できなかったことを示します。
+* **image:../media/enable_ca_undefined_icon.png["CA未完了アイコン"]は、接続情報を取得できなかったことを示します。
 +
 
 NOTE: ステータスが黄色または緑のときは、データ保護処理が正常に完了しています。

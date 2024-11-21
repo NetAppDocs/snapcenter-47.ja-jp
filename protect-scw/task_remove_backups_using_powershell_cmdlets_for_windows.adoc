@@ -10,11 +10,12 @@ summary: Remove-SmBackup コマンドレットを使用すると、他のデー�
 :imagesdir: ../media/
 
 
+[role="lead"]
 Remove-SmBackup コマンドレットを使用すると、他のデータ保護処理に不要になったバックアップを削除できます。
 
 PowerShell コマンドレットを実行できるように PowerShell 環境を準備しておく必要があります。
 
-コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 * 手順 *
 

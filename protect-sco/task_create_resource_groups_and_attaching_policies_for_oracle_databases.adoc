@@ -21,7 +21,7 @@ Oracle DBVERIFY ユーティリティを使用してバックアップを検証�
 
 次の図は、データベースのリソース、リソースグループ、およびポリシーの関係を示しています。
 
-image::../media/sco_resourcegroup_policy.gif[SCO リソースグループポリシー]
+image::../media/sco_resourcegroup_policy.gif[リソースグループからポリシーを追加]
 
 * 手順 *
 
@@ -82,12 +82,12 @@ NOTE: 1 つのリソースグループ内の Linux ホストと AIX ホストの
 .. ドロップダウンリストから 1 つ以上のポリシーを選択します。
 +
 
-NOTE: をクリックしてポリシーを作成することもできます image:../media/add_policy_from_resourcegroup.gif[""]。
+NOTE: をクリックしてポリシーを作成することもできます。
 
 +
 [ 選択したポリシーのスケジュールを設定 ] セクションに、選択したポリシーが一覧表示されます。
 
-.. * をクリックしますimage:../media/add_policy_from_resourcegroup.gif[""]* スケジュールを設定するポリシーの [ スケジュールの設定 ] 列。
+.. スケジュールを設定するポリシーの[スケジュールの設定]列で**をクリックしますimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]。
 .. [Add schedules for policy_name] ウィンドウで、スケジュールを設定し、 [*OK*] をクリックします。
 +
 ここで、 _policy_name_は 選択したポリシーの名前です。
@@ -103,7 +103,7 @@ NOTE: をクリックしてポリシーを作成することもできます imag
 . [Verification] ページで、次の手順を実行します。
 +
 .. Load locators * （ロケータのロード）をクリックして、 SnapMirror または SnapVault ボリュームをロードし、セカンダリ・ストレージ上で検証を実行します。
-.. * をクリックしますimage:../media/add_policy_from_resourcegroup.gif[""]* Configure Schedules （スケジュールの設定）列で、ポリシーのすべてのスケジュールタイプの検証スケジュールを設定します。
+.. [スケジュールの設定]列の**をクリックしimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]て、ポリシーのすべてのスケジュールタイプに対して検証スケジュールを設定します。
 .. Add Verification Schedules policy_name ダイアログボックスで、次の操作を実行します。
 +
 |===

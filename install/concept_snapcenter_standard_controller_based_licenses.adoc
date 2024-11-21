@@ -59,8 +59,8 @@ NOTE: お使いのコントローラにすでに SnapManagerSuite ライセン�
 Controller License 列には、次のステータスが表示されます。
 
 +
-** image:../media/controller_licensed_icon.gif[""] FAS スイートライセンスが AFF または SnapManager プライマリストレージシステムにインストールされていることを示します。
-** image:../media/controller_not_licensed_icon.gif[""] FAS スイートライセンスが AFF または SnapManager プライマリストレージシステムにインストールされていないことを示します。
+** image:../media/controller_licensed_icon.gif["コントローラライセンスアイコン"]FASまたはAFFプライマリストレージシステムにSnapManager Suiteライセンスがインストールされていることを示します。
+** image:../media/controller_not_licensed_icon.gif["コントローラのライセンスがありませんアイコン"]FASまたはAFFプライマリストレージシステムにSnapManager Suiteライセンスがインストールされていないことを示します。
 ** 該当しない場合は、ストレージコントローラが Cloud Volumes ONTAP 、 ONTAP Select 、またはセカンダリストレージプラットフォーム上にあるため、 SnapManager スイートのライセンスは適用されません。
 
 
@@ -180,7 +180,7 @@ FAS または AFF ストレージを使用している場合、NetApp Support Si
 . [ システム ] 、 [ * ソフトウェアライセンス ] の順に移動します。
 . 選択基準領域で、シリアル番号（ユニットの背面にある番号）が選択されていることを確認し、コントローラのシリアル番号を入力して、 * Go!* をクリックします。
 +
-image::../media/nss_controller_license_select.gif[NSS コントローラのライセンス選択]
+image::../media/nss_controller_license_select.gif[コントローラライセンスを選択]
 
 +
 指定したコントローラのライセンスのリストが表示されます。
@@ -238,7 +238,7 @@ NOTE: トライアルライセンスを手動で削除する必要があるの�
 .. Open-SmConnection コマンドレットを実行して、 SnapCenterAdmin アカウントの SnapCenter サーバとの接続セッションを開始します。
 .. Set-SmRepositoryPassword を実行して、 MySQL パスワードをリセットします。
 +
-コマンドレットの詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 
 

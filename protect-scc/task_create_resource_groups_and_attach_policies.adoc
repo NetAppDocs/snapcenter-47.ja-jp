@@ -82,7 +82,7 @@ WAFL 整合ポイントを強制しない場合は、これを選択します。
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["アプリケーション設定"]
 
 .. スクリプト矢印をクリックし、休止、 Snapshot コピー、および休止解除の各処理の PRE および POST コマンドを入力します。障害発生時に終了する前に実行する PRE コマンドを入力することもできます。
 .. [ カスタム構成 ] 矢印をクリックし、このリソースを使用するすべてのデータ保護操作に必要なカスタムキーと値のペアを入力します。
@@ -176,12 +176,12 @@ Other を選択し、ホストで実行するコマンドを入力して Snapsho
 .. ドロップダウンリストから 1 つ以上のポリシーを選択します。
 +
 
-NOTE: また、 * をクリックしてポリシーを作成することもできますimage:../media/add_policy_from_resourcegroup.gif[""]*
+NOTE: **をクリックしてポリシーを作成することもできますimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]。
 
 +
 ポリシーは、 [ 選択したポリシーのスケジュールの設定 *] セクションに一覧表示されます。
 
-.. [ スケジュールの設定 *] 列で、 [ *] をクリックしますimage:../media/add_policy_from_resourcegroup.gif[""]* をクリックします。
+.. [スケジュールの設定]*列で、設定するポリシーの**をクリックしますimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]。
 .. [Add schedules for policy_name_] ダイアログボックスで、スケジュールを設定し、 [OK] をクリックします。
 +
 policy_name は、選択したポリシーの名前です。
