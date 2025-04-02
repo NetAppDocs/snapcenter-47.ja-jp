@@ -111,4 +111,4 @@ NOTE: DLLが破損している場合は、SnapCenterサーバを修復したり�
 
 NOTE: NSMファイルまたは構成ファイルが破損している場合は、同じバージョンのSnapCenterサーバをアンインストールして再インストールできます。
 
-詳細については、を参照してください https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["ディザスタリカバリ API"^] ビデオ：
+詳細については、ビデオを参照して https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["ディザスタリカバリ API"^]ください。

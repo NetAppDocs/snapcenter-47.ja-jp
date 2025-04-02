@@ -4255,7 +4255,6 @@
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">SnapCenter を使用して SMBR のセカンダリストレージからリストアする方法</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">SMBR を使用した SnapVault からの Microsoft Exchange メールのリカバリ</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="ec053c308e147d0958e28a0ea54218e5" category="summary">レプリカコピーを再シードする必要がある場合、たとえばコピーが破損した場合は、 SnapCenter の再シード機能を使用して最新のバックアップに再シードできます。</block>
   <block id="aabc88376ed488867dcbd5ebe7ee5f24" category="doc">Exchange のパッシブノードレプリカを再シードします</block>
   <block id="95ae09e6950aff657a0ec2b6e13f37f0" category="list-text">SnapCenter サーバ 4.1 以降および Plug-in for Exchange 4.1 以降を使用している必要があります。</block>
@@ -5494,7 +5493,6 @@
   <block id="2a1a78f96ec6b03f3ccdd06b708e6f1a" category="list-text">（オプション） SnapCenter Plug-in for SQL Server の構成ファイルをディザスタリカバリ（ DR ）バックアップから新しいマシンに置き換えます。</block>
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">Windows スケジュールと SQL スケジュールを、 DR バックアップから SnapCenter Plug-in for SQL Server フォルダからインポートします。</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link">ディザスタリカバリ API</block>
-  <block id="90840bc3d6109c892e0f709274fdc6b6" category="paragraph">詳細については、を参照してください<block ref="af818973dd6acaf1e28a3bd4ca9bd4a5" category="inline-link-rx"></block> ビデオ：</block>
   <block id="a8827ae14ad272b19b5554bf29b0dd50" category="summary">SnapCenter Plug-in for SQL Server のプライマリストレージがオンラインに戻ったら、プライマリストレージにフェイルバックする必要があります。</block>
   <block id="c259d7aac6b257b97bf45bb54cdbfb28" category="doc">SnapCenter Plug-in for SQL Server のセカンダリストレージからプライマリストレージへのフェイルバック</block>
   <block id="7ffc5c3595639b4cfa7e25819a476178" category="list-text">Managed Hosts ページから SnapCenter Plug-in for SQL Server を * Maintenance * モードにします。</block>
@@ -7941,4 +7939,6 @@ NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）に
   <block id="1d1b01258ef419d4f55f117e4f1c31b5" category="paragraph">また、 _Uninstall-sSmHostPackage_ コマンドレットと必要なパラメータを使用して、複数のホストからプラグインをアンインストールすることもできます。コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>。</block>
   <block id="6e3721ff221b27bff22381b01334befc" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>。</block>
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">複数のホストをアップグレードする場合は、すべてのホストを選択してをクリックし <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>、*[アップグレード]*&gt;*[OK]*をクリックします。</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
 </blocks>
