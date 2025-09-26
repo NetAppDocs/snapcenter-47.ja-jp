@@ -5111,7 +5111,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">SQL Server に対して sysadmin 権限を持つユーザが必要です。</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">SnapCenter Plug-in for Microsoft SQL Server は Microsoft VDI Framework を使用しますが、これには sysadmin アクセスが必要です。</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft のサポート記事 2926557 ：「 SQL Server VDI backup and restore operations require Sysadmin privileges</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">SnapManager for Microsoft SQL Server がインストールされている場合は、サービスとスケジュールを停止または無効にしておく必要があります。</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">ホストがサーバから完全修飾ドメイン名（ FQDN ）に解決できる必要があります。</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">hosts ファイルが解決可能になるように変更され、短縮名と FQDN の両方が hosts ファイルに指定されている場合は、 SnapCenter hosts ファイルに &lt;IP_address&gt; &lt;host_fqdn&gt;&lt;host_name&gt; の形式でエントリを作成します</block>
@@ -7941,4 +7940,5 @@ NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）に
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">複数のホストをアップグレードする場合は、すべてのホストを選択してをクリックし <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>、*[アップグレード]*&gt;*[OK]*をクリックします。</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
