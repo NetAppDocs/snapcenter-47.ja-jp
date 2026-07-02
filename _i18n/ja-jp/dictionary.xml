@@ -1366,7 +1366,6 @@
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">導入の詳細については、を参照してください<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>。</block>
   <block id="0a43bd1f35095f6ca081444f65372381" category="section-title">CA 証明書を導入する</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">SSL 証明書を作成またはインポートします</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">SnapCenter Plug-in for VMware vSphere で CA 証明書を設定するには、を参照してください<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>。</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">CRL ファイルを設定します</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">SnapCenter Plug-in for VMware vSphere は、事前に設定されたディレクトリ内の CRL ファイルを検索します。VMware vSphere 用 SnapCenter プラグインの CRL ファイルのデフォルトディレクトリは、 _/opt/NetApp/config/crl_です 。</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">このディレクトリに複数の CRL ファイルを配置できます。着信証明書は各 CRL に対して検証されます。</block>
@@ -5387,8 +5386,6 @@
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">クローンライフサイクルの実行</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link-macro">デフォルトの TCP_TIMEOUT 値を使用すると、クローニング処理が失敗するか所要時間が長くなる可能性があります</block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="e120fc76fd23e12235b495bc6454901a" category="doc">SQL プラグインに必要な最小限の ONTAP 権限</block>
   <block id="5abc04a0058572b3476c739ab8f716ae" category="summary">SnapCenter Plug-in for Microsoft SQL Server は、 SQL Server 2012 以降、非対称 LUN マッピング（ ALM ）構成の高可用性、およびディザスタリカバリ用の可用性グループの検出をサポートしています。SnapCenter は、リソースを検出する際に、 ALM 構成のローカルホストとリモートホストにあるデータベースを検出します。</block>
   <block id="142782e834c9014d923c3a1905a8dcdc" category="doc">Windows クラスタでの非対称 LUN マッピングのサポート</block>
@@ -5467,9 +5464,7 @@
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server データベース、インスタンス、または可用性グループをバックアップする</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">フェイルオーバークラスタインスタンスのデータベースクローンが失敗します</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="9ca74d34b57102a33530d9899af7733c" category="summary">クローニング戦略を定義しておくと、それに従ってデータベースのクローニングを実行することができます。</block>
   <block id="9cd5b5b3661b19fdc904212b1625d8a4" category="doc">SQL Server のクローニング戦略を定義する</block>
   <block id="eb183fafee64c1e1dd422fb241b192d3" category="list-text">クローニング処理に関する制限事項を確認します。</block>
@@ -5637,10 +5632,7 @@
   <block id="8e927494c3186b26a3de09d9578e731f" category="paragraph">ポリシーの * verify * オプションは、スケジュールされたジョブにのみ適用されます。</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">TCP_TIMEOUT での遅延のために MySQL 接続エラーが発生して、バックアップ処理が失敗します</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Windows スケジューラのエラーでバックアップが失敗します</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="dae1725dc2e5765223411b1d431ef15d" category="doc">SnapCenter Plug-in for Microsoft Windows および Microsoft SQL Server でサポートされるストレージタイプ</block>
   <block id="ed23594fb532cf4eb57e0617ea972d01" category="summary">SnapCenter を使用して、バックアップされた SQL Server データベースをリストアできます。データベースのリストアは段階的に実施され、すべてのデータページとログページが指定した SQL Server バックアップから指定したデータベースにコピーされます。</block>
   <block id="8dc83a66a1d1ae521ee2721fa555da40" category="doc">SQL Server データベースのバックアップをリストアする</block>
@@ -5751,7 +5743,6 @@
   <block id="5891deda92209d1d45144775b7d5c20d" category="admonition">WindowsスケジューラまたはSQL Serverエージェントで作成されたバックアップジョブの名前は変更しないでください。</block>
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">暗黙的なリソースグループが作成されます。これを表示するには、 [ ユーザーアクセス（ User Access ） ] ページで該当するユーザーまたはグループを選択します。暗黙的なリソースグループタイプは「リソース」です。</block>
   <block id="f1b0e4721c4648a3a0d9747b1df24457" category="inline-link">リソースの休止処理またはグループ化処理が失敗します</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="a7532c252c594c82935a8c1dfb2797df" category="summary">SnapCenter を使用すると、リソースグループまたはデータベースからクローンを作成できます。クローニングはオンデマンドで実行することも、リソースグループまたはデータベースの定期的なクローニング処理をスケジュール設定することもできます。バックアップを定期的にクローニングすると、クローンを使用してアプリケーションの開発、データの取り込み、またはデータのリカバリを行うことができます。</block>
   <block id="e2baeb6d36971b32336c0afa64291666" category="paragraph">SnapCenter を使用すると、リソースグループまたはデータベースからクローンを作成できます。クローニングはオンデマンドで実行することも、リソースグループまたはデータベースの定期的なクローニング処理をスケジュール設定することもできます。バックアップを定期的にクローニングすると、クローンを使用してアプリケーションの開発、データの取り込み、またはデータのリカバリを行うことができます。</block>
   <block id="cd39e8b84c367c07b34d183687284b51" category="paragraph">SnapCenter では、複数のサーバで同時に複数のクローニング処理を実行するようにスケジュールを設定できます。</block>
@@ -6017,8 +6008,6 @@
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">Plug-in for Windows では、 Microsoft クラスタ内の仮想マシンでの MPIO はサポートされません。</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">共有 FC RDM LUN を作成</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">FC RDM LUN を使用して Microsoft クラスタ内のノード間でストレージを共有する前に、共有クォーラムディスクと共有ストレージディスクを作成し、それらをクラスタ内の両方の仮想マシンに追加しておく必要があります。</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">物理ホスト間で仮想マシンをクラスタ化します</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">共有ディスクの作成に Plug-in for Windows は使用しません。共有 LUN を作成し、クラスタ内の各仮想マシンに追加する必要があります。詳細については、を参照してください<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>。</block>
   <block id="e50267850b333a2a2c47f0cee7337818" category="summary">SnapCenter サーバとアプリケーションまたはデータベースのプラグインをインストールする前に、接続とポートの要件が満たされていることを確認する必要があります。</block>
   <block id="9a0980e2d2a75eb076f41f7a4d439162" category="doc">接続とポートの要件</block>
   <block id="3b6aba921e77b08934dcdcdab274466d" category="list-text">アプリケーションはポートを共有できません。</block>
@@ -7941,4 +7930,12 @@ NetApp®Single Mailbox Recoveryは、2023年5月12日に販売終了（EOA）に
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">CA証明書をSnapCenter Plug-in for VMware vSphereで構成するには、<block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">共有ディスクの作成にPlug-in for Windowsは使用しません。共有LUNを作成し、クラスタ内の各仮想マシンに追加する必要があります。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">関連情報</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Broadcom技術ドキュメント</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph"><block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block>を参照し、物理ホスト間で仮想マシンをクラスタリングする方法や、Microsoft クラスタ用の共有 FC RDM LUN を作成する方法に関するドキュメントを検索してください。</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>
